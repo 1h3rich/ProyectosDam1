@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<paneles>
+    <evento tipo="normal" fecha="2024-06-01" hora="12:00:00">
+        <via>
+            <nombre>Autovía A-1</nombre>
+            <ref>A-1</ref>
+            <origen>Madrid</origen>
+            <destino>Burgos</destino>
+        </via>
+        <pk>
+                <inicio>100.5</inicio>
+                <fin>102.0</fin>
+        </pk>
+        <retencion>
+                <duracion>30 minutos</duracion>
+                <longitud>1.5 km</longitud>
+        </retencion>
+        <sentido>
+            <origen>Burgos</origen>
+            <destino>Madrid</destino>
+        </sentido>
+        <carrilescortados>
+            <valor1>1</valor1>
+            <valor2>2</valor2>
+            <valor3>3</valor3>
+            <valor4>4</valor4>
+        </carrilescortados>
+    </evento>
+</paneles>

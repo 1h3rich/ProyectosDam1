@@ -1,0 +1,17 @@
+<!ELEMENT paneles (evento*)>
+<!ELEMENT evento (via, pk, retencion, sentido, carrilescortados)>
+<!ATTLIST evento
+    tipo CDATA #REQUIRED
+    fecha CDATA #IMPLIED
+>
+<!ELEMENT via (nombre, ref, origen, destino)>
+<!ATTLIST via
+    nombre CDATA #REQUIRED
+    ref CDATA #REQUIRED
+    origen CDATA #REQUIRED
+    destino CDATA #REQUIRED>
+
+<!ELEMENT pk (#PCDATA)>
+<!ELEMENT retencion (#PCDATA)>
+<!ELEMENT sentido (#PCDATA)>
+<!ELEMENT carrilescortados (valor1 | valor2 | valor3 | valor4)>

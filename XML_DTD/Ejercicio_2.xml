@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libros SYSTEM "Ejercicio_2.dtd">
+    <libros>
+        <autor>Miguel de Cervantes Saavedra</autor>
+        <titulo>El Quijote de la Mancha</titulo>
+    </libros>
