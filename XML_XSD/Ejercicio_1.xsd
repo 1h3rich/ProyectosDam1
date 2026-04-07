@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="dispositivo" type="tipoDispositivo" />
+    <xs:simpleType name="tipoDispositivo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Conectado" />
+            <xs:enumeration value="Ocupado" />
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
+    

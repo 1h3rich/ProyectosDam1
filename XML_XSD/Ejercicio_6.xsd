@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="edades" type="edadesPermitidas" />
+    <xs:simpleType name="edad">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"></xs:minInclusive>
+            <xs:maxInclusive value="17"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="edadesPermitidas">
+        <xs:sequence>
+            <xs:element name="edad" type="edad" minOccurs="3" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

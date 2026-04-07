@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Vehiculos>
+    <Vehiculo>
+        <nombre>Ford Mustang</nombre>
+        <modelo>GT</modelo>
+    </Vehiculo>
+    <Fabricacion>
+        <Inicio>1964</Inicio>
+        <Fecha>
+            <año>1964</año>
+            <mes>4</mes>
+            <dia>17</dia>
+        </Fecha>
+        <Fin>2021</Fin>
+        <Fecha>
+            <año>2021</año>
+            <mes>12</mes>
+            <dia>31</dia>
+        </Fecha>
+    </Fabricacion>
+    <modificaciones>
+        <modificaciones>Actualización de motor en 2015</modificaciones>
+        <modificaciones>Rediseño de carrocería en 2018</modificaciones>
+    </modificaciones>
+</Vehiculos>
