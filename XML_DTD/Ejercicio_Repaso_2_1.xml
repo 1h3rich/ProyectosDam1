@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LigaFutbol [
+    <!ELEMENT LigaFutbol (Partido*)>
+    <!ELEMENT Partido (equipoLocal, equipoVisitante)>
+    <!ELEMENT equipoLocal (nombre, goles)>
+    <!ELEMENT equipoVisitante (nombre, goles)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT goles (#PCDATA)>
+]>
+<LigaFutbol>
+    <Partido>
+        <equipoLocal>
+            <nombre>Equipo A</nombre>
+            <goles>2</goles>
+        </equipoLocal>
+        <equipoVisitante>
+            <nombre>Equipo B</nombre>
+            <goles>1</goles>
+        </equipoVisitante>
+    </Partido>
+</LigaFutbol>

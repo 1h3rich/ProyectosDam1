@@ -18,23 +18,23 @@
 
     <xs:simpleType name="mesPermitido">
         <xs:restriction base="xs:integer">
-            <xs:minInclusive value="1" />
+            <xs:minInclusive value="01" />
             <xs:maxInclusive value="12" />
         </xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="diaPermitido">
         <xs:restriction base="xs:integer">
-            <xs:minInclusive value="1" />
+            <xs:minInclusive value="01" />
             <xs:maxInclusive value="31" />
         </xs:restriction>
     </xs:simpleType>
 
     <xs:complexType name="Fecha">
         <xs:sequence>
-            <xs:element name="año" type="añoPermitido"/>
-            <xs:element name="mes" type="mesPermitido"/>
-            <xs:element name="dia" type="diaPermitido"/>
+            <xs:element name="año" type="añoPermitido" />
+            <xs:element name="mes" type="mesPermitido" />
+            <xs:element name="dia" type="diaPermitido" />
         </xs:sequence>
     </xs:complexType>
 
@@ -48,13 +48,13 @@
     <xs:complexType name="Fabricacion">
         <xs:sequence>
             <xs:element name="Inicio" type="Fecha" />
-            <xs:element name="Fin" type="Fecha" />  
+            <xs:element name="Fin" type="Fecha" />
         </xs:sequence>
     </xs:complexType>
 
     <xs:complexType name="modificaciones">
         <xs:sequence>
-            <xs:element name="modificaciones" type="xs:string" maxOccurs="unbounded"/>
+            <xs:element name="modificaciones" type="xs:string" maxOccurs="unbounded" />
         </xs:sequence>
     </xs:complexType>
 </xs:schema>

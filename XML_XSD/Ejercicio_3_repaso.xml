@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="Ejercicio_3_repaso.xsd">
+
+    <libro isbn="978-84-376-0494-7">
+        <titulo lang="es">El Quijote</titulo>
+        <autor>Miguel de Cervantes</autor>
+        <año>1605</año>
+        <genero>Novela</genero>
+    </libro>
+
+    <libro isbn="978-84-376-0494-8">
+        <titulo lang="es">La sombra del viento</titulo>
+        <autor>Carlos Ruiz Zafón</autor>
+        <año>2001</año>
+        <genero>Misterio</genero>
+    </libro>
+
+    <usuario id="U100">
+        <nombre>Laura</nombre>
+        <apellido>García</apellido>
+        <socio>true</socio>
+    </usuario>
+
+    <prestamo>
+        <libroRef isbn="978-84-376-0494-7" />
+        <usuarioRef id="U100" />
+        <fechaInicio>2026-04-10</fechaInicio>
+        <fechaDevolucion>2026-04-20</fechaDevolucion>
+    </prestamo>
+
+</biblioteca>
