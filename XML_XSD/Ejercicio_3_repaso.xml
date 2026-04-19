@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <biblioteca xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
-xs:noNamespaceSchemaLocation="Ejercicio_3_repaso.xsd">
+xs:noNamespaceSchemaLocation="Ejercicio_3_repaso_1.xsd">
 
     <libro isbn="978-84-376-0494-7">
         <titulo lang="es">El Quijote</titulo>
