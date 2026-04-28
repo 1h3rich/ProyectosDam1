@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE LigaFutbol [
-    <!ELEMENT LigaFutbol (Partido*)>
-    <!ELEMENT Partido (equipoLocal, equipoVisitante)>
-    <!ELEMENT equipoLocal (nombre)>
-    <!ELEMENT equipoVisitante (nombre)>
-    <!ELEMENT nombre (#PCDATA)>
-    <!ELEMENT goles (#PCDATA)>
-
-    <!ATTLIST equipoLocal goles CDATA #REQUIRED>
-    <!ATTLIST equipoVisitante goles CDATA #REQUIRED>
+<!DOCTYPE liga [
+    <!ELEMENT liga (partido+)>
+    <!ELEMENT partido EMPTY>
+    <!ATTLIST partido equipoLocal CDATA #REQUIRED
+                       equipoVisitante CDATA #REQUIRED
+                       golesLocal CDATA #REQUIRED
+                       golesVisitante CDATA #REQUIRED>
 ]>
-<LigaFutbol>
-    <Partido>
-        <equipoLocal goles="0">
-            <nombre>Equipo A</nombre>
-        </equipoLocal>
-        <equipoVisitante goles="0">
-            <nombre>Equipo B</nombre>
-        </equipoVisitante>
-    </Partido>
-</LigaFutbol>
+
+<liga>
+    <partido equipoLocal="Real Madrid" equipoVisitante="FC Barcelona" golesLocal="2" golesVisitante="1"/>
+    <partido equipoLocal="Atlético de Madrid" equipoVisitante="Sevilla FC" golesLocal="0" golesVisitante="0"/>
+    <partido equipoLocal="Valencia CF" equipoVisitante="Real Betis Balompié" golesLocal="3" golesVisitante="2"/>
+</liga>
