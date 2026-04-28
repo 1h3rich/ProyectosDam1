@@ -1,0 +1,12 @@
+<biblioteca>
+    <libro categoria="web">
+        <titulo>HTML5</titulo>
+        <autor>Ana López</autor>
+        <precio>30</precio>
+    </libro>
+    <libro categoria="programacion">
+        <titulo>Java Básico</titulo>
+        <autor>Carlos Ruiz</autor>
+        <precio>28</precio>
+    </libro>
+</biblioteca>

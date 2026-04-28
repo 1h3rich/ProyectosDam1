@@ -1,0 +1,42 @@
+<instituto>
+    <clases>
+        <clase id="1">
+            <profesor>
+                <nombre>María</nombre>
+                <departamento>Lengua</departamento>
+            </profesor>
+            <alumnos>
+                <alumno>
+                    <nombre>Ana</nombre>
+                    <nota>8</nota>
+                </alumno>
+                <alumno>
+                    <nombre>Juan</nombre>
+                    <nota>5</nota>
+                </alumno>
+            </alumnos>
+        </clase>
+        <clase id="2">
+            <profesor>
+                <nombre>Carlos</nombre>
+                <departamento>Matemáticas</departamento>
+            </profesor>
+            <alumnos>
+                <alumno>
+                    <nombre>Lucía</nombre>
+                    <nota>9</nota>
+                </alumno>
+            </alumnos>
+        </clase>
+    </clases>
+    <actividades>
+        <actividad>
+            <nombre>Excursión</nombre>
+            <responsable>
+                <nombre>María</nombre>
+            </responsable>
+        </actividad>
+    </actividades>
+</instituto>
+
+<!-- //actividad[responsable]//responsable//nombre -->
