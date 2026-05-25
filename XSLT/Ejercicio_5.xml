@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibliotecas>
+<biblioteca>
+<nombre>Biblioteca Central</nombre>
+<ubicacion>
+<ciudad>Zaragoza</ciudad>
+<pais>España</pais>
+</ubicacion>
+</biblioteca>
+<biblioteca>
+<nombre>Biblioteca Nacional</nombre>
+<ubicacion>
+<ciudad>Paris</ciudad>
+<pais>Francia</pais>
+</ubicacion>
+</biblioteca>
+<biblioteca>
+<nombre>Biblioteca Pública de Nueva York</nombre>
+<ubicacion>
+<ciudad>Nueva York</ciudad>
+<pais>Estados Unidos</pais>
+</ubicacion>
+</biblioteca>
+</bibliotecas>

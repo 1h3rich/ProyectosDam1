@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<videoteca>
+<pelicula codigo="p1">
+<titulo>Origen</titulo>
+<directores>
+<director nacimiento="1970">Christopher Nolan</director>
+</directores>
+</pelicula>
+<pelicula codigo="p2">
+<titulo>Películas clásicas</titulo>
+<directores>
+<director nacimiento="1942">Martin Scorsese</director>
+<director nacimiento="1946">Steven Spielberg</director>
+</directores>
+</pelicula>
+</videoteca>

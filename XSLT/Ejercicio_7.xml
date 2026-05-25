@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empleados>
+<empleado id="1">
+<nombre>Ana López</nombre>
+<departamento>Informática</departamento>
+<salario>2200</salario>
+</empleado>
+<empleado id="2">
+<nombre>Carlos Pérez</nombre>
+<departamento>Administración</departamento>
+<salario>1800</salario>
+</empleado>
+<empleado id="3">
+<nombre>Lucía Martín</nombre>
+<departamento>Marketing</departamento>
+<salario>2100</salario>
+</empleado>
+</empleados>
